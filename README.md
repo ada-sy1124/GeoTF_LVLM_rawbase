@@ -395,7 +395,7 @@ $$w_{\text{token}} = 0$$
 
 最终公式：
 
-$$\boxed{\mathcal{L}_{GeoTF}(I_m, y^{*}) = -\sum_{t} w_{t}^{WGS84} \log p(y_{t}^{*} \mid I_m, y_{< t}^{*})}$$
+$$\boxed{\mathcal{L}_{GeoTF}(I_m, y^{\ast}) = -\sum_{t} w_{t}^{WGS84} \log p(y_{t}^{\ast} \mid I_m, y_{\lt t}^{\ast})}$$
 
 其中：
 
