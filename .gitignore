@@ -1,0 +1,37 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+*.json
+*.jsonl
+!zero*.json
+
+
+# Data
+*.mp4
+*.npy
+*.html
+*.csv
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+archive
+
+checkpoints
+ckpts*
+weights
+
+.ipynb_checkpoints
+*.ipynb
+README.md
