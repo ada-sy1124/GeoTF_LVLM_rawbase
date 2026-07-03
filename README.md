@@ -114,7 +114,7 @@ $$y^* = \text{``-35.1510, +128.9830''}$$
 
 最终 loss：
 
-$$\mathcal{L}_{GeoTF}(I_m, y^*) = -\sum_t w_t \log p(y_t^* \mid I_m, y_{<t}^*)$$
+$$\mathcal{L}_{GeoTF}(I_m, y^{\ast}) = -\sum_{t} w_{t} \log p(y_{t}^{\ast} \mid I_m, y_{\lt t}^{\ast})$$
 
 其中 $I_m$ 是遮挡后的图像，$y^*$ 是原图上模型自然输出的参考坐标。
 
